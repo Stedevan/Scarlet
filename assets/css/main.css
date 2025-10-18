@@ -246,6 +246,12 @@ input, select, textarea {
 			font-size: 1.25em;
 		}
 
+		.email {
+		color: #43B3E0;
+		text-decoration: underline;
+	}
+
+
 /* Container */
 
 	.container {
