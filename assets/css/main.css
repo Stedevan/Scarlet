@@ -298,6 +298,13 @@ input, select, textarea {
 					width: 75%;
 				}
 
+				h1 {
+		font-size: 1.8em;
+		letter-spacing: -0.025em;
+		font-weight: 300;
+	}
+
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -309,6 +316,7 @@ input, select, textarea {
 
 				.container.medium {
 					width: 100%;
+					
 				}
 
 		}
@@ -1148,7 +1156,7 @@ input, select, textarea {
 				}
 
 				.row > .col-8-medium {
-					width: 66.66667%;
+					width: 50%;
 				}
 
 				.row > .off-8-medium {
@@ -2340,6 +2348,7 @@ input, select, textarea {
 				}
 
 	}
+	
 
 /* Small */
 
