@@ -298,6 +298,11 @@ input, select, textarea {
 					width: 75%;
 				}
 
+				h1 strong {
+
+					font-size: 50px;
+				}
+
 			
 
 
@@ -309,7 +314,7 @@ input, select, textarea {
 
 		
 
-		@media screen and (max-width: 746px) {
+		@media screen and (max-width: 784px) {
 
 			.container {
 				width: 100%;
@@ -319,6 +324,11 @@ input, select, textarea {
 				.container.medium {
 					width: 100%;
 					
+				}
+
+				h1 strong {
+
+					font-size: 40px;
 				}
 
 		}
@@ -1546,6 +1556,10 @@ input, select, textarea {
 							padding-top: 30px;
 						}
 
+						h1 strong {
+							font-size: 30px;
+						}
+
 		}
 
 /* Form */
@@ -2371,7 +2385,7 @@ input, select, textarea {
 			}
 
 			h1, h2, h3, h4, h5, h6 {
-				font-size: 1.25em;
+				font-size: 1em;
 				margin: 0 0 0.4em 0;
 			}
 
