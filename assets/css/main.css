@@ -40,6 +40,24 @@ body {
 	line-height: 1;
 }
 
+#nav a {
+			-moz-transition: background-color .2s ease-in-out;
+			-webkit-transition: background-color .2s ease-in-out;
+			-ms-transition: background-color .2s ease-in-out;
+			transition: background-color .2s ease-in-out;
+			position: relative;
+			display: block;
+			text-decoration: none;
+			outline: 0;
+			font-weight: 600;
+			border-radius: 8px;
+			color: #fff;
+			height: 2em;
+			line-height: 2.5em;
+			padding: 0 0.5em;
+			font-size: 20px;
+		}
+
 ol, ul {
 	list-style: none;
 }
@@ -117,7 +135,7 @@ input, select, textarea {
 		-webkit-transition: color .2s ease-in-out;
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
-		color: #43B3E0;
+		color: #e04343;
 		text-decoration: underline;
 	}
 
@@ -1674,6 +1692,7 @@ input, select, textarea {
 			}
 
 		}
+	
 
 /* Form */
 
@@ -1798,6 +1817,7 @@ input, select, textarea {
 		position: relative;
 		
 	}
+
 
 		.image img {
 			display: block;
@@ -2469,6 +2489,8 @@ input, select, textarea {
 
 		/* Articles */
 
+			
+
 			#top {
 				text-align: center;
 				padding: 5em 0;
@@ -2477,6 +2499,8 @@ input, select, textarea {
 				#top .image {
 					margin: 0 auto 2em auto;
 				}
+
+				
 
 	}
 	
@@ -2487,6 +2511,26 @@ input, select, textarea {
 
 		/* Basic */
 
+		#nav a {
+			-moz-transition: background-color .2s ease-in-out;
+			-webkit-transition: background-color .2s ease-in-out;
+			-ms-transition: background-color .2s ease-in-out;
+			transition: background-color .2s ease-in-out;
+			position: relative;
+			display: block;
+			text-decoration: none;
+			outline: 0;
+			font-weight: 600;
+			border-radius: 8px;
+			color: #fff;
+			height: 2em;
+			line-height: 2.5em;
+			padding: 0 0.5em;
+			font-size: 20px;
+		}
+
+
+		
 			body {
 				padding-top: 44px;
 			}
@@ -2495,11 +2539,13 @@ input, select, textarea {
 				line-height: 1.75em;
 				font-size: 10pt;
 				letter-spacing: 0;
+				color: #ffff;
 			}
 
 			h1, h2, h3, h4, h5, h6 {
 				font-size: 1em;
 				margin: 0 0 0.4em 0;
+			
 			}
 
 			h1 {
@@ -2744,23 +2790,7 @@ input, select, textarea {
 				text-align: center;
 			}
 
-		/* Nav */
-
-			#nav {
-				height: 44px;
-				line-height: 44px;
-			}
-
-				#nav a {
-					padding: 0 0.75em;
-					height: inherit;
-					line-height: inherit;
-					border-radius: 0;
-				}
-
-					#nav a:hover {
-						background-color: transparent;
-					}
+		
 
 		/* Articles */
 
@@ -2800,5 +2830,45 @@ input, select, textarea {
 					#copyright li:first-child {
 						margin-top: 0;
 					}
+
+						#steve {
+			display: block;
+			width: 85%;
+			margin-top: 40px;
+			margin-left: 40px;
+		}
+	
+
+	}
+
+		@media screen and (max-width: 500px){
+
+			#nav a {
+			-moz-transition: background-color .2s ease-in-out;
+			-webkit-transition: background-color .2s ease-in-out;
+			-ms-transition: background-color .2s ease-in-out;
+			transition: background-color .2s ease-in-out;
+			position: relative;
+			display: block;
+			text-decoration: none;
+			outline: 0;
+			font-weight: 500;
+			border-radius: 8px;
+			color: #fff;
+			height: 2em;
+			line-height: 2.5em;
+			padding: 0 0.5em;
+			font-size: 15px;
+			
+		}
+
+
+		#steve {
+			display: block;
+			width: 75%;
+			margin-top: 40px;
+			margin-left: 40px;
+		}
+	
 
 	}
