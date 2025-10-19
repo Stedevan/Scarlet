@@ -298,16 +298,18 @@ input, select, textarea {
 					width: 75%;
 				}
 
-				h1 {
-		font-size: 1.8em;
-		letter-spacing: -0.025em;
-		font-weight: 300;
-	}
+			
 
 
 		}
 
-		@media screen and (max-width: 736px) {
+
+		
+
+
+		
+
+		@media screen and (max-width: 746px) {
 
 			.container {
 				width: 100%;
@@ -320,6 +322,8 @@ input, select, textarea {
 				}
 
 		}
+
+	
 
 /* Row */
 
