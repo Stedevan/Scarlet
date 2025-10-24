@@ -324,6 +324,10 @@
 		textarea {
 			@include vendor('transition', ('background .2s ease-in-out', 'box-shadow .2s ease-in-out'));
 			-webkit-appearance: none;
+			appearance: none;
+			-moz-appearance: none;
+			-ms-appearance: none;
+			appearance: none;
 			display: block;
 			border: 0;
 			padding: 0.75em;
@@ -467,6 +471,7 @@
 		@include vendor('background-image', ('url("images/bg.png")', 'linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2))'));
 		@include vendor('transition', 'background-color .2s ease-in-out');
 		-webkit-appearance: none;
+		appearance: none;
 		position: relative;
 		display: inline-block;
 		color: #fff !important;
