@@ -2184,7 +2184,8 @@ input, select, textarea {
 		}
 
 		.box.style1:hover {
-			transform: scale(150%);
+			transform: scale(140%);
+			cursor: pointer;
 		
 		}
 
