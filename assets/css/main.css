@@ -2181,10 +2181,10 @@ input, select, textarea {
 
 		.box.style1 {
 			padding: 3em 2em 3.5em 2em;
-		}
+		}box
 
 		.box.style1:hover {
-			transform: scale(150%);
+			transform: scale(140%);
 		
 		}
 
