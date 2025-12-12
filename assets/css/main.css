@@ -2382,14 +2382,13 @@ input, select, textarea {
 	}
 
 		#top .image {
-			border-radius: 100%;
 			width: 20em;
 			height: 20em;
 			margin: 0;
 		}
 
 			#top .image img {
-				border-radius: 2%;
+				border-radius: 50%
 			}
 
 		#top h1 {
@@ -2840,8 +2839,9 @@ input, select, textarea {
 					}
 
 						#steve {
-			display: block;
-			width: 85%;
+			display:block;
+			width: 100px;
+			height: 100px;
 			margin-top: 40px;
 			margin-left: 40px;
 		}
@@ -2871,12 +2871,5 @@ input, select, textarea {
 		}
 
 
-		#steve {
-			display: block;
-			width: 75%;
-			margin-top: 40px;
-			margin-left: 40px;
-		}
-	
 
 	}
