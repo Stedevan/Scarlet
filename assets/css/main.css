@@ -129,6 +129,13 @@ input, select, textarea {
 		font-weight: 300;
 		font-size: 13pt;
 	}
+	.container1 {
+		margin: 0 auto;
+		width:min-content;
+		margin-right: 500px;
+	
+		
+	}
 
 	a {
 		-moz-transition: color .2s ease-in-out;
@@ -304,6 +311,9 @@ input, select, textarea {
 					width: 720px;
 				}
 
+					.container1 {
+		margin-right: auto;}
+		
 		}
 
 		@media screen and (max-width: 980px) {
@@ -315,6 +325,10 @@ input, select, textarea {
 				.container.medium {
 					width: 75%;
 				}
+
+
+					.container1 {
+		margin-right: auto;}
 
 				h1 strong {
 
@@ -2845,6 +2859,17 @@ input, select, textarea {
 			margin-top: 40px;
 			margin-left: 40px;
 		}
+
+
+
+		#overseer 
+		{
+			display:block;
+			width: 25px;
+			height: 25px;
+			margin-top: 20px;
+			margin-right: 200px;
+			
 	
 
 	}
