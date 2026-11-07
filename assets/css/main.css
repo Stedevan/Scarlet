@@ -1979,7 +1979,7 @@ input, select, textarea {
 		input[type="submit"].large,
 		input[type="reset"].large,
 		button.large,
-		.button.medium, {
+		.button.large {
 			font-size: 1.5em;
 			letter-spacing: -0.025em;
 		}
