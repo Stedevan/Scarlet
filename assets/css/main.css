@@ -2411,7 +2411,7 @@ input, select, textarea {
 		}
 
 			#top .image img {
-				border-radius: 2%
+				border-radius: 8%
 			}
 
 		#top h1 {
@@ -2528,7 +2528,11 @@ input, select, textarea {
 
 				#top .image {
 					margin: 0 auto 2em auto;
+					width: 200px;
+					height: 250px;
 				}
+
+				
 
 				
 
@@ -2864,9 +2868,17 @@ input, select, textarea {
 						#steve {
 			display:block;
 			width: 100px;
-			height: 100px;
+			height: 150px;
 			margin-top: 40px;
 			margin-left: 40px;
+		}
+
+		a img {
+			margin-top: 20px;
+			border: 0;
+			border-radius: 8px;
+			width: 100px;
+			height: 150px;
 		}
 
 
