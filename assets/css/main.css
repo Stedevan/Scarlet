@@ -147,6 +147,10 @@ input, select, textarea {
 		text-decoration: underline;
 	}
 
+	a:hover {
+		color: #912121;
+	}
+
 		
 
 		a img {
