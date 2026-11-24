@@ -215,7 +215,13 @@ input, select, textarea {
 		font-size: 2em;
 		letter-spacing: -0.015em;
 	}
+   .image fit {
+border-radius: 8px;
+}
 
+.box.style1 {
+		border-radius: 8px;
+	}
 	
 
 	#tsc {
@@ -2417,7 +2423,7 @@ input, select, textarea {
 		}
 
 			#top .image img {
-				border-radius: 8%
+				border-radius: 2%
 			}
 
 		#top h1 {
