@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
+@import url("fontawesome-all.min.css");
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'ArgosGeorge';
+  src: url(../my-fonts/argos-george.regular.ttf); }
+
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #242323;
+}
+
+h1{
+  color:#000000;
+  font-family: Dancing Script, cursive;
+  
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+   font-family: Dancing Script;
+   font-size: 1.5em;
+   margin-right: 20px;
+  }
+
+  a:hover {
+				color: #fff !important;
+				background: #912121;
+        border-radius: 10px;
+         box-sizing: border-box;
+  padding: 5px; /* Expands hit area */
+        
+			}
+
+
+p {
+  color:#ffffff;
+}
+
+h2,h3,h5 {
+  color:#ffffff;
+  display: inline-block;
+  font-family: Dancing Script, cursive;
+
+}
+
+h2:hover {
+  color:#000000;
+  
+}
+
+h3:hover {
+  color:#000000;
+
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background-image: url('poster2.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  
+
+}
+
+/* Nav */
+
+	#nav {
+		background-color: #282828;
+		text-align: center;
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		z-index: 10000;
+		cursor: default;
+		height: 3.5em;
+		line-height: 3.5em;
+	}
+
+		#nav ul {
+			margin-bottom: 0;
+			list-style: none;
+			padding-left: 0;
+		}
+
+		#nav li {
+			display: inline-block;
+			padding-left: 0;
+		}
+
+		#nav a {
+			-moz-transition: background-color .2s ease-in-out;
+			-webkit-transition: background-color .2s ease-in-out;
+			-ms-transition: background-color .2s ease-in-out;
+			transition: background-color .2s ease-in-out;
+			position: relative;
+			display: block;
+			color: #fff;
+			text-decoration: none;
+			outline: 0;
+			font-weight: 600;
+			border-radius: 8px;
+			color: #fff;
+			height: 2.5em;
+			line-height: 2.5em;
+			padding: 0 1.25em;
+			font-size: 20px;
+		}
+
+			#nav a:hover {
+				color: #fff !important;
+				background: #912121;
+			}
+
+			#nav a.active {
+				background: #484848;
+			}
+
+				#nav a.active:before {
+					content: '';
+					display: block;
+					position: absolute;
+					bottom: -0.6em;
+					left: 50%;
+					margin-left: -0.75em;
+					border-left: solid 0.75em transparent;
+					border-right: solid 0.75em transparent;
+					border-top: solid 0.6em #282828;
+				}
+
+
+.button {
+  background-color: #4b4848;
+  border:#000000;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: right;
+  border-radius: 10px;
+  
+}
+
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  background-image: url('pic.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  
+
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #4b4848;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #a19e9e;
+  margin-top: 20px;
+  border-radius: 10px;
+  
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
